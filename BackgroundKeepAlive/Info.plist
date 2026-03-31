@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This app uses your location in the background to stay active and deliver reliable service.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app needs location access to function properly.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This app uses your location in the background to stay active.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+		<string>audio</string>
+		<string>fetch</string>
+		<string>processing</string>
+	</array>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>com.yourapp.background.refresh</string>
+		<string>com.yourapp.background.processing</string>
+	</array>
+	<key>CFBundleDisplayName</key>
+	<string>BGKeepAlive</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourapp.backgroundkeepalive</string>
+	<key>CFBundleName</key>
+	<string>BackgroundKeepAlive</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UILaunchScreen</key>
+	<dict/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+</dict>
+</plist>
